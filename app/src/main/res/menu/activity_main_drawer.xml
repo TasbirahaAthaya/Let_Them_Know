@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Video Removal"
+        android:textColor="#795548"/>
+    <item android:title="Job Recruiter's Desk"
+        android:textColor="#3E2723">
+        <menu>
+            <item
+                android:id="@+id/jobUpdate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Keep Records"
+                android:textColor="#795548"/>
+            <item
+                android:id="@+id/trace"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Trace Your Recruiter"
+                android:textColor="#795548"/>
+            </menu>
+    </item>
+
+</menu>

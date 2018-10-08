@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.letthemknow1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".jobActivity"
+            android:label="@string/title_activity_job"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".videoActivity"
+            android:label="@string/title_activity_video"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".treaserActivity"
+            android:label="@string/title_activity_treaser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Show"
+            android:label="@string/title_activity_show"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SecurityNew"
+            android:label="@string/title_activity_security_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teenage"
+            android:label="@string/title_activity_teenage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".briddho"
+            android:label="@string/title_activity_briddho"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pregnant"
+            android:label="@string/title_activity_pregnant"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".medi"
+            android:label="@string/title_activity_medi"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

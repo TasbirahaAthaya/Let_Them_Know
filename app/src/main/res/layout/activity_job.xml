@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bu4">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text=" "
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000"
+            android:padding="5dp"
+
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Applicant's Info"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:background="@drawable/bu5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/name"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Father's Name"
+            android:ems="10"
+            android:id="@+id/father"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Mother's Name"
+            android:ems="10"
+            android:id="@+id/mother"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Age"
+            android:ems="10"
+            android:id="@+id/age"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Address"
+            android:ems="10"
+            android:id="@+id/address"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Phone Number"
+            android:ems="10"
+            android:id="@+id/phone"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Recruiter's Info"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:background="@drawable/bu5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:ems="10"
+            android:id="@+id/Rname"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Father's Name"
+            android:ems="10"
+            android:id="@+id/Rfather"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Address"
+            android:ems="10"
+            android:id="@+id/Raddress"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Age"
+            android:ems="10"
+            android:id="@+id/Rage"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Occupation"
+            android:ems="10"
+            android:id="@+id/Roccupation"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" National ID"
+            android:ems="10"
+            android:id="@+id/nid"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Name of Institution"
+            android:ems="10"
+            android:id="@+id/institution"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint=" Phone Number"
+            android:ems="10"
+            android:id="@+id/Rphone"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:id="@+id/Button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/bu1"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            />
+    </LinearLayout>
+</ScrollView>
